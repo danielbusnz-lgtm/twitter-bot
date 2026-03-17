@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-03-16T17:10:08.208076",
+  "avg_likes_by_account": {
+    "naval": 16533.0,
+    "reidhoffman": 2566.0,
+    "codinghorror": 1509.0,
+    "dhh": 1383.0,
+    "jeresig": 475.0,
+    "jasonfried": 404.0,
+    "collision": 332.0,
+    "levelsio": 278.0,
+    "omarsar0": 229.0,
+    "kritikakodes": 50.0,
+    "t3dotgg": 4.0
+  },
+  "best_hours_to_post_utc": [
+    4,
+    5,
+    12
+  ],
+  "likes_by_tweet_length": {
+    "short": 2877.0,
+    "medium": 2466.0,
+    "long": 1023.0
+  },
+  "engagement_rate_by_account": {
+    "kritikakodes": 0.0234,
+    "dhh": 0.0129,
+    "naval": 0.0119,
+    "jasonfried": 0.0095,
+    "omarsar0": 0.0082,
+    "levelsio": 0.0063,
+    "codinghorror": 0.0062,
+    "collision": 0.0059,
+    "jeresig": 0.0048,
+    "reidhoffman": 0.003,
+    "t3dotgg": 0.0009
+  },
+  "style_analysis": {
+    "tone": "direct, declarative, contrarian, minimalist",
+    "common_structures": [
+      "Single punchy sentence that reframes a concept",
+      "Before/after or then/now progression (A was X, then Y, now Z)",
+      "Binary contrast framing (not X vs Y, it's A vs B)",
+      "Short declarative followed by brief elaboration",
+      "Question as headline, answer implied or linked",
+      "Parallel list with a payoff line at the end",
+      "One-word or two-word affirmation with a link"
+    ],
+    "topics_that_perform": [
+      "AI reframing existing industries or job roles",
+      "Technology trend predictions stated as inevitable facts",
+      "Contrarian takes on conventional wisdom",
+      "Historical tech pattern mapped onto the present",
+      "Economic moats, market structure shifts",
+      "Personal product experiences stated as broader signals",
+      "Geopolitics or policy with a sharp quantitative angle"
+    ],
+    "things_to_avoid": [
+      "Hedging language (maybe, possibly, it seems like)",
+      "Long threads with excessive context-setting",
+      "Emotional or sentimental framing",
+      "Jargon without immediate plain-language payoff",
+      "Asking for engagement explicitly (like, retweet, comment)",
+      "Nuanced both-sides framing",
+      "Passive voice",
+      "Filler phrases like 'I think' or 'in my opinion'"
+    ],
+    "style_tips": [
+      "State the conclusion first, strip all throat-clearing \u2014 the entire insight should survive being cut to one sentence",
+      "Use structural contrast to create tension: old vs new, expected vs actual, junior vs senior \u2014 the gap is where the insight lives",
+      "Write like you are updating a proverb \u2014 timeless framing applied to a current trend makes ideas feel both urgent and durable",
+      "Compress a multi-paragraph argument into a single declarative sentence; if you need more, use a 3-line progression with a kicker",
+      "Pick a side hard \u2014 ambivalence kills engagement; the most liked posts make a claim that someone could strongly disagree with"
+    ]
+  },
+  "top_tweet_samples": [
+    {
+      "handle": "naval",
+      "likes": 31663,
+      "text": "The human brain isn\u2019t designed to process all of the world\u2019s breaking emergencies in realtime."
+    },
+    {
+      "handle": "naval",
+      "likes": 29822,
+      "text": "A \u201ccomputer\u201d used to be a job title. \n\nThen a computer became a thing humans used. \n\nNow a computer is becoming a thing computers use."
+    },
+    {
+      "handle": "naval",
+      "likes": 21193,
+      "text": "Coding an app is the new starting a podcast."
+    },
+    {
+      "handle": "naval",
+      "likes": 20995,
+      "text": "Software was eaten by AI."
+    },
+    {
+      "handle": "naval",
+      "likes": 18192,
+      "text": "AI is going to drain a lot of moats."
+    },
+    {
+      "handle": "naval",
+      "likes": 17670,
+      "text": "It\u2019s not about junior vs senior, it\u2019s about \u201cgood with AI\u201d vs \u201cnot good with AI.\u201d"
+    },
+    {
+      "handle": "naval",
+      "likes": 15643,
+      "text": "Drones are easy to make, hard to stop, and bring Mutually Assured Destruction to conventional warfare."
+    },
+    {
+      "handle": "reidhoffman",
+      "likes": 12236,
+      "text": "The FBI cleared me. You on the other hand\u2026"
+    },
+    {
+      "handle": "naval",
+      "likes": 9869,
+      "text": "Software will proliferate just as videos, music,  writing did. \n\nThe market structure will shift from a \u201cfat middle\u201d to mega-aggregators and a long tail.\n\nIt\u2019ll be a slower process due to network effects, but many traditional vendor lock-ins will get eaten by AI."
+    },
+    {
+      "handle": "codinghorror",
+      "likes": 8648,
+      "text": "I Fight For The Users: a post in support of migrating away from Twitter and generating funds for The Trevor Project. Please bid as you see fit for a good cause! https://t.co/WGTWMwPgqJ -- this will be my last post on Twitter \ud83d\udc4b https://t.co/lkjOn4ITvz"
+    }
+  ]
+}
