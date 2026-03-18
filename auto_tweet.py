@@ -66,14 +66,17 @@ Recently posted tweets (DO NOT repeat these ideas):
 {posted_list}
 
 Write ONE tweet. Rules:
-- Max 280 characters
+- Under 100 characters if possible, never more than 280
 - No emojis
 - No hashtags
-- Short tweets outperform long ones
+- No em dashes
+- State the conclusion first, no throat-clearing
 - Pick a side hard — ambivalence kills engagement
-- State the conclusion first
+- Declarative sentences only, no hedging language
+- Use concrete numbers whenever possible (MRR, users, hours saved, etc.)
+- Structural contrast works well: old vs new, expected vs actual
 - Must be on a different topic/angle than the recently posted tweets above
-- Topics that work: remote work, AI replacing jobs, salary vs equity, productivity, hiring, startups, software engineering, money, prediction markets, trading
+- Topics that perform: AI reframing industries, contrarian takes, tech predictions stated as facts, product/market insights with numbers
 
 Reply with only the tweet text, nothing else."""
 
