@@ -47,36 +47,33 @@ def generate_tweet(insights: dict, posted: set[str]) -> str:
     avoid      = "\n".join(f"- {t}" for t in insights["style_analysis"]["things_to_avoid"])
     posted_list = "\n".join(f'- "{p}"' for p in list(posted)[-20:]) if posted else "None yet"
 
-    prompt = f"""You are writing a tweet for a software developer and builder.
-Your goal is to write a single tweet that will get maximum engagement (likes, replies, reposts).
-
-Top performing tweets for reference:
-{top_samples}
-
-Style tips:
-{style_tips}
-
-Topics that perform well:
-{topics}
-
-Things to avoid:
-{avoid}
+    prompt = f"""You are writing a tweet for a software engineering student at UChicago who builds AI projects and side projects.
+Your goal is to write a single tweet that gets maximum engagement (likes, replies, reposts).
 
 Recently posted tweets (DO NOT repeat these ideas):
 {posted_list}
 
-Write ONE tweet. Rules:
-- Under 100 characters if possible, never more than 280
-- No emojis
+Style — write in ONE of these formats, rotating between them:
+
+1. Engagement question: conversational, "Be real...", "honest question:", pulls people into debate
+   Example: "Be real... does learning to code even matter anymore with AI everywhere?"
+
+2. Specific numbers story: a real-sounding person with specific financial/career details, end with "what do you think?"
+   Example: "a dev I know is 23. He has: - $0 in savings - 3 SaaS apps - $8k MRR. Is he cooked?"
+
+3. Community hook: invite people to connect around a shared identity
+   Example: "If you're into AI, automation, or shipping 10x faster as a solo dev - let's connect"
+
+Rules:
+- Casual, conversational tone — sound like a real person, not a thought leader
+- Use specific numbers and concrete details
+- Emojis allowed sparingly (1 max)
 - No hashtags
 - No em dashes
-- State the conclusion first, no throat-clearing
-- Pick a side hard — ambivalence kills engagement
-- Declarative sentences only, no hedging language
-- Use concrete numbers whenever possible (MRR, users, hours saved, etc.)
-- Structural contrast works well: old vs new, expected vs actual
+- No corporate language or buzzwords
+- Under 280 characters
 - Must be on a different topic/angle than the recently posted tweets above
-- Topics that perform: AI reframing industries, contrarian takes, tech predictions stated as facts, product/market insights with numbers
+- Topics: AI tools, solo dev life, building in public, career, money, coding, side projects
 
 Reply with only the tweet text, nothing else."""
 
